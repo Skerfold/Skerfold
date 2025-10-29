@@ -1,18 +1,16 @@
 ### 👋 Olá! Eu sou Lucas ([Skerfold])
 
-Bem-vindo(a) ao meu perfil!
+My Profile.
+---
+
+### - Sobre Mim
+
+* **Desenvolvedor Web & Mobile:** Em Front-End : TypeScript, React, Angular, Next. E em mobile : Dart.
+* **Backend:** Trabalhei com ferramentas como : Firebase, MongoDB, MySQL.
 
 ---
 
-### 👨‍💻 Sobre Mim
-
-* **Desenvolvedor Web & Mobile:** Focado em [Sua Habilidade, ex: TypeScript, React e Angular] para a web, e aprendendo [Sua Habilidade, ex: Flutter] para mobile.
-* **Backend:** Tenho experiência com [Sua Habilidade, ex: Node.js, Firebase e MySQL].
-* **Objetivo:** Buscando minha primeira oportunidade (Estágio/Jovem Aprendiz) em Limeira-SP.
-
----
-
-### 🛠️ Skills & Tools
+### 🛠️ Skills & Tools.
 
 **Linguagens:**
 <br>
@@ -46,14 +44,14 @@ Bem-vindo(a) ao meu perfil!
 
 ---
 
-### 🚀 No que estou trabalhando
+### No que estou trabalhando :D 
 
 * **🔭 Projeto Principal:** Colaborando em um app de mapas com notícias em tempo real em **Flutter**.
 * **🔭 Projeto Secundário:** Fazendo um jogo no Roblox em **LUA**.
 
 ---
 
-### 📫 Como me encontrar
+### 📫 Outros.
 
 <p align="left">
   <a href="https://www.linkedin.com/in/lucas-pains-673014397" target="_blank">
