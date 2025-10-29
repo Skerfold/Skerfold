@@ -1,11 +1,8 @@
 name: Generate Snake Animation
 
 on:
-  # Isso faz rodar a cada 12h
   schedule:
     - cron: "0 */12 * * *"
-
-  # Isso deixa você rodar manualmente
   workflow_dispatch:
 
 jobs:
@@ -22,7 +19,10 @@ jobs:
 
       - uses: crazy-max/ghaction-github-pages@v3.0.0
         with:
+          # Pasta onde a imagem foi gerada
           build_dir: dist
+          # Branch onde a imagem será salva
           target_branch: output
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # O 'env:' fica AQUI, fora do 'with:'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
