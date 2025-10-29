@@ -1,0 +1,35 @@
+# Nome da sua Action (tarefa)
+name: Generate Snake Animation
+
+# Define quando ela vai rodar
+on:
+  # A cada 12 horas, automaticamente
+  schedule:
+    - cron: "0 */12 * * *"
+  
+  # Permite que você rode manualmente (importante para o primeiro teste)
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Este é o script que gera a cobrinha
+      - uses: Platane/snk@v3
+        with:
+          # Ele pega o seu nome de usuário (Skerfold) automaticamente
+          github_user_name: ${{ github.repository_owner }}
+          
+          # Lista de arquivos que serão gerados (um para tema claro, um para escuro)
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      # Este passo salva a imagem gerada em uma nova branch chamada "output"
+      - uses: crazy-max/ghaction-github-pages@v3.0.0
+        with:
+          build_dir: dist
+          target_branch: output
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
