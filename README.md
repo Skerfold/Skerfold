@@ -1,4 +1,4 @@
-### 👋 Olá! Eu sou Lucas ([Skerfold])
+### 👋 Oi, Eu sou Lucas Pains | Nick: ([Skerfold])
 
 My Profile.
 ---
