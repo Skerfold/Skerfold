@@ -10,7 +10,7 @@ My Profile.
 
 ---
 
-### 🛠️ Skills & Tools.
+### 🛠️ Skills & Ferramentas já trabalhadas.
 
 **Linguagens:**
 <br>
